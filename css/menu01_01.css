@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		font-family:"나눔바른고딕", Arial, "Arial Black";
+	}
+  *{
+        margin: 0 ;
+        padding: 0;
+		text-align:center;
+    }
+    .wrap {
+        width: 100%;
+        margin: 0 auto;
+		height:2000px;
+		text-align:center;
+		
+    }
+    .wrap ul.tabs{
+        margin-top: 20px;
+        float: left;
+        height: 49px;
+        border-bottom: 1px solid #eee;
+        border-left: 1px solid #eee;
+        width: 100%;
+		text-align:center;
+		margin:0 auto;
+    }
+    .wrap ul.tabs li{
+        list-style: none;
+        float:left;
+        width: 140px;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #eee;
+        border-left: none;
+        overflow: hidden;
+        border-color: #fafafa;
+        cursor: pointer;
+        line-height: 45px;
+		margin:0 auto;
+		background-image:url(../img/icon/menu_01_over.png);
+		color:#999;
+    }
+	
+    .wrap ul.tabs li.active {
+        border-bottom: 1px solid #fff;
+        font-weight: bold;
+        background-image:url(../img/icon/menu_01.png);
+		text-align:center;
+		color:#000;
+		margin:0 auto;
+    }
+    .wrap .tab_wrap{
+        width: 100%;
+        float: left;
+        height: 2000px;
+        background-color: #fff;
+        border: 1px solid #eee;
+        border-top: none;
+		text-align:center;
+		margin:0 auto;
+       
+    }
+    .wrap .tab_wrap .tab_content{
+        padding: 10px;
+        display: none;
+        font-size: 20px;
+		text-align:center;
+		margin:0 auto;
+    }
+    .wrap .tab_wrap{}
+	
+	.text_strong{
+		font-size: 29px;
+		text-align:left;
+		
+	}
